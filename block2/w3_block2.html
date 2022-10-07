@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link href="block-2.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div
+      class="ws-black w3-center"
+      style="padding-top: 90px; padding-bottom: 90px"
+    >
+      <div class="w3-content learntocodecontent" style="max-width: 1400px">
+        <h1 class="learntocodeh1">Learn to Code</h1>
+        <h3 class="learntocodeh3">
+          With the world's largest web developer site.
+        </h3>
+        <br />
+        <form
+          class="example"
+          action="/action_page.php"
+          style="margin: auto; max-width: 500px"
+        >
+          <input
+            type="text"
+            placeholder="Search our tutorials, e.g. HTML"
+            id="search2"
+            autocomplete="off"
+            onkeydown="key_pressed_in_search(event)"
+            oninput="find_search_results(this)"
+            onfocus="find_search_results(this)"
+          />
+          <button
+            type="button"
+            id="learntocode_searchbtn"
+            onclick="click_learntocode_search_btn()"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+              id="IconChangeColor"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                id="mainIconPathAttribute"
+                stroke-width="0.5"
+                stroke="#ffffff"
+                fill="#ffffff"
+              ></path>
+            </svg>
+          </button>
+          <div id="listofsearchresults">/></div>
+        </form>
+        <h4
+          style="
+            color: white;
+            font-size: 23px;
+            font-weight: 700;
+            margin-top: 30px;
+          "
+        >
+          <a href="where_to_start.asp">Not Sure Where To Begin?</a>
+        </h4>
+      </div>
+    </div>
+    <svg
+      style="background-color: #d9eee1"
+      width="100%"
+      height="70"
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+    >
+      <path
+        id="wavepath"
+        d="M0,0  L110,0C35,150 35,0 0,100z"
+        fill="#282A35"
+      ></path>
+    </svg>
+  </body>
+</html>

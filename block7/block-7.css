@@ -23,8 +23,17 @@
   padding-bottom: 32px;
 }
 
-.w3-center {
+.w3-center2 {
   text-align: center !important;
+}
+.w3-content {
+  box-sizing: border-box;
+  padding-left: 90px;
+  padding-right: 90px;
+  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .w3-content {
@@ -33,6 +42,7 @@
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
+  color: 000000 !important;
 }
 
 .w3-content::before {

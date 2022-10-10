@@ -1,0 +1,105 @@
+/* Python style */
+
+.python-wrapper__section{
+  width: 100%;
+  background-color: #F3ECEA!important;
+  color: black!important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.python-wrapper{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 1400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F3ECEA!important;
+  color: black!important;
+}
+
+.python-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.python-h1{
+  margin-top: -10px;
+  font-size: 80px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.random-text{
+  margin-top: -50px;
+  display: block;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.python-items{
+  margin-top: 15px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 8px 12px;
+}
+
+.learn-python{
+  margin-top: 15px;
+  background-color: #04AA6D;
+  color: white;
+  font-size: 18px;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.python-reference{
+  background-color: #282A35;
+  color: white;
+  font-size: 18px;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.python-certified{
+  background-color: #FFC0C7!important;
+  color: black!important;
+  font-size: 18px;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.python-img{
+  float: left;
+}
+
+@media screen and (max-width: 600px) {
+  .python-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .python-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Python style */

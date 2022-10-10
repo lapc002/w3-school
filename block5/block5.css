@@ -1,0 +1,133 @@
+.container {
+  background-color: #282a35;
+  color: white;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.contant {
+  max-width: 1322px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.box1 {
+  padding: 3%;
+  width: 49, 999%;
+}
+h1 {
+  font-weight: 700;
+  font-size: 63px;
+  margin-bottom: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+p {
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+.button1 {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 18px;
+  margin: 28px 0px 6px 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 191px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+
+.button2 {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  margin: 23px 0px 6px 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 191px;
+  height: 40px;
+  border-radius: 25px;
+}
+.button3 {
+  background-color: #ffc0c7;
+  color: black;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 191px;
+  height: 40px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px 6px 68px;
+}
+.box2 {
+  background-color: #282a35;
+}
+.tab {
+  width: 548px;
+  height: 349px;
+  background-color: rgb(240, 235, 235);
+  border-radius: 5px;
+  padding-left: 20px;
+  margin: 50px 38px 15px 11px;
+}
+.window {
+  width: 490px;
+  height: 200px;
+  background-color: white;
+  border-left: 5px solid #04aa6d;
+}
+line {
+  height: 230px;
+  width: 5px;
+  background-color: #04aa6d;
+}
+h3 {
+  color: #000;
+  padding-top: 26px;
+  padding-left: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 21px;
+}
+.img{
+  width: 100px;
+  height: 300px;
+ 
+}
+.button4 {
+  background-color: #04aa6d;
+  height: 40px;
+  width: 191px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 26px 0px 0px 0px;
+ 
+}
+@media (max-width: 995px) {
+  .contant {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .tab {
+    display: none;
+  }
+}
+.p2 {
+  color: #000;
+  font-size: 15px;
+  text-align: justify;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+}

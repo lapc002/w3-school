@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>w3 school</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>w3 school</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet" />
+  <link rel="icon" href="./assets/images/favicon.ico">
 
-    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./HW3 block1/block1.css" />
-    <link rel="stylesheet" href="./HW3 block6/block6.css" />
-    <link rel="stylesheet" href="./block2/block-2.css" />
-    <link rel="stylesheet" href="./block3/block3.css">
-    <link rel="stylesheet" href="./block4/website.css" />
-   <link rel="stylesheet" href="./block5/block5.css"/>
-    <link rel="stylesheet" href="./block7/block-7.css" />
-    <link rel="stylesheet" href="./block8/block8.css">
-    <link rel="stylesheet" href="./block9/website2.css" />
-    <link rel="stylesheet" href="./block10/block10.css"/>
-  </head>
+  <link rel="stylesheet" href="./HW3 block6/block6.css" />
+  <link rel="stylesheet" href="./block2/block-2.css" />
+  <link rel="stylesheet" href="./block3/block3.css">
+  <link rel="stylesheet" href="./block4/website.css" />
+  <link rel="stylesheet" href="./block5/block5.css" />
+  <link rel="stylesheet" href="./block7/block-7.css" />
+  <link rel="stylesheet" href="./block8/block8.css">
+  <link rel="stylesheet" href="./block9/website2.css" />
+  <link rel="stylesheet" href="./block10/block10.css" />
+</head>
 
-  <body style="margin: 0;">
+ <body style="margin: 0;">
     <!--block 1 start-->
     <section class="header-wraooer">
       <div class="header-w3">
@@ -48,159 +46,112 @@
       </div>
     </section>
     <!--block 1 end-->
-
-    <!--block-2-->
-    <div
-      class="ws-black w3-center"
-      style="padding-top: 90px; padding-bottom: 90px"
-    >
-      <div class="learntocodecontent" style="max-width: 1400px">
-        <h1 class="learntocodeh1">Learn to Code</h1>
-        <h3 class="learntocodeh3">
-          With the world's largest web developer site.
-        </h3>
-        <br />
-        <form
-          class="example"
-          action="/action_page.php"
-          style="margin: auto; max-width: 500px"
-        >
-          <input
-            type="text"
-            placeholder="Search our tutorials, e.g. HTML"
-            id="search2"
-            autocomplete="off"
-            onkeydown="key_pressed_in_search(event)"
-            oninput="find_search_results(this)"
-            onfocus="find_search_results(this)"
-          />
-          <button
-            type="button"
-            id="learntocode_searchbtn"
-            onclick="click_learntocode_search_btn()"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              fill="currentColor"
-              class="bi bi-search"
-              viewBox="0 0 16 16"
-              id="IconChangeColor"
-            >
-              <path
-                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                id="mainIconPathAttribute"
-                stroke-width="0.5"
-                stroke="#ffffff"
-                fill="#ffffff"
-              ></path>
-            </svg>
-          </button>
-          <div id="listofsearchresults">/></div>
-        </form>
-        <h4
-          style="
+  <!--block-2-->
+  <div class="ws-black w3-center" style="padding-top: 90px; padding-bottom: 90px">
+    <div class="learntocodecontent" style="max-width: 1400px">
+      <h1 class="learntocodeh1">Learn to Code</h1>
+      <h3 class="learntocodeh3">
+        With the world's largest web developer site.
+      </h3>
+      <br />
+      <form class="example" action="/action_page.php" style="margin: auto; max-width: 500px">
+        <input type="text" placeholder="Search our tutorials, e.g. HTML" id="search2" autocomplete="off" onkeydown="key_pressed_in_search(event)" oninput="find_search_results(this)" onfocus="find_search_results(this)" />
+        <button type="button" id="learntocode_searchbtn" onclick="click_learntocode_search_btn()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" id="IconChangeColor">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" id="mainIconPathAttribute" stroke-width="0.5" stroke="#ffffff" fill="#ffffff"></path>
+          </svg>
+        </button>
+        <div id="listofsearchresults">/></div>
+      </form>
+      <h4 style="
             color: white;
             font-size: 23px;
             font-weight: 700;
             margin-top: 30px;
-          "
-        >
-          <a href="where_to_start.asp">Not Sure Where To Begin?</a>
-        </h4>
-      </div>
+          ">
+        <a href="where_to_start.asp">Not Sure Where To Begin?</a>
+      </h4>
     </div>
-    <svg
-      style="background-color: #d9eee1"
-      width="100%"
-      height="70"
-      viewBox="0 0 100 100"
-      preserveAspectRatio="none"
-    >
-      <path
-        id="wavepath"
-        d="M0,0  L110,0C35,150 35,0 0,100z"
-        fill="#282A35"
-      ></path>
-    </svg>
-    <!--block 3-->
-    <div class="conteiner">
-      <div class="contant">
+  </div>
+  <svg style="background-color: #d9eee1" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
+  </svg>
+  <!--block 3-->
+  <div class="conteiner">
+    <div class="contant">
       <div class="box1">
-      <h1>HTML</h1>
-      <p>The language for building web pages</p>
-  <div class="button_box">
-      <a href="/html/default.asp"class="button_1">Learn HTML</a>   
-      <a href="https://www.w3schools.com/videos/index.php"class="button_2">video tutorial</a>
-      <a href="/tags/default.asp"class="button_3">HTML Reference</a>
-      <a href="https://shop.w3schools.com/collections/certifications/products/html-certificate"class="button_4">Get Certified</a>
-  </div>
-  </div>
-  <div class="box2">
-      <div class="board">
-          <h3>HTML Example:</h3>   
+        <h1>HTML</h1>
+        <p>The language for building web pages</p>
+        <div class="button_box">
+          <a href="/html/default.asp" class="button_1">Learn HTML</a>
+          <a href="https://www.w3schools.com/videos/index.php" class="button_2">video tutorial</a>
+          <a href="/tags/default.asp" class="button_3">HTML Reference</a>
+          <a href="https://shop.w3schools.com/collections/certifications/products/html-certificate" class="button_4">Get Certified</a>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="board">
+          <h3>HTML Example:</h3>
           <div class="window"></div>
           <br>
-      <a href="/html/tryit.asp?filename=tryhtml_default_default" class="button_board">Try it Yourself</a>
+          <a href="/html/tryit.asp?filename=tryhtml_default_default" class="button_board">Try it Yourself</a>
+        </div>
       </div>
-  </div>
       <div>
-  </div>
-  </div>
-</div>
-    <!-- block 4 -->
-    <div class="w3-content-yellow-a">
-      <div class="block1-yellow-a">
-        <div class="bl1-info">CSS</div>
-        <div class="bl1-info2">The language for styling web pages</div>
-        <a href="">
-          <button class="bl1-info3 green-button-a">Learn CSS</button>
-        </a>
-        <a href="">
-          <button class="bl1-info4 black-button-a">CSS Reference</button>
-        </a>
-        <a href="">
-          <button class="bl1-info5 pink-button-a">Get Certified</button>
-        </a>
       </div>
-      <div class="block2-yellow-a">
-        <div class="bl2-gen">
-          <div class="bl2-text">CSS Example:</div>
-          <div class="bl2-img">
-            <img src="./assets/images/img1.png" alt="image" />
-          </div>
-          <div class="bl2-but-bg">
-            <a href="">
-              <button class="bl2-but green-button-a">Try it Yorself</button>
-            </a>
-          </div>
+    </div>
+  </div>
+  <!-- block 4 -->
+  <div class="w3-content-yellow-a">
+    <div class="block1-yellow-a">
+      <div class="bl1-info">CSS</div>
+      <div class="bl1-info2">The language for styling web pages</div>
+      <a href="">
+        <button class="bl1-info3 green-button-a">Learn CSS</button>
+      </a>
+      <a href="">
+        <button class="bl1-info4 black-button-a">CSS Reference</button>
+      </a>
+      <a href="">
+        <button class="bl1-info5 pink-button-a">Get Certified</button>
+      </a>
+    </div>
+    <div class="block2-yellow-a">
+      <div class="bl2-gen">
+        <div class="bl2-text">CSS Example:</div>
+        <div class="bl2-img">
+          <img src="./assets/images/img1.png" alt="image" />
+        </div>
+        <div class="bl2-but-bg">
+          <a href="">
+            <button class="bl2-but green-button-a">Try it Yorself</button>
+          </a>
         </div>
       </div>
     </div>
-    <!--block5-->
-    <div class="container">
-      <div class="contant">
-        <div class="box1">
-          <h1>JavaScript</h1>
-          <p>The language for programming web pages</p>
-          <div class="button1">Learn JavaScript</div>
-          <div class="button2">JavaScript Reference</div>
-          <div class="button3">Get Certified</div>
-          
-        </div>
-        <div class="box2">
-          <div class="tab">
-            <h3>JavaScript Example:</h3>
-            <div class="window">
-              <div class="img">
-                <img src="aa.jpeg" alt="" />
-              </div>
-              <div class="line"></div>
+  </div>
+  <!--block5-->
+  <div class="container">
+    <div class="contant">
+      <div class="box1">
+        <h1>JavaScript</h1>
+        <p>The language for programming web pages</p>
+        <div class="button1">Learn JavaScript</div>
+        <div class="button2">JavaScript Reference</div>
+        <div class="button3">Get Certified</div>
+
+      </div>
+      <div class="box2">
+        <div class="tab">
+          <h3>JavaScript Example:</h3>
+          <div class="window">
+            <div class="img">
+              <img src="aa.jpeg" alt="" />
             </div>
-            
-            <div class="button4">Try it Yourself</div>
+            <div class="line"></div>
           </div>
+
+          <div class="button4">Try it Yourself</div>
         </div>
       </div>
     </div>
@@ -279,261 +230,112 @@
               >Try it Yourself</a
             >
           </div>
+          <a href="/sql/trysql.asp?filename=trysql_select_where" target="_blank" class="w3-button tryit-button">Try it Yourself</a>
         </div>
       </div>
     </div>
-    <!--block 8-->
-    <div class="conteiner">
-      <div class="box_out1">
-          <div class="box_1">
-              <h2 class="h2_1">PHP</h2>
-              <h5 class="h5_1">A web server programming language</h5>
-              <div class="button_1">Learn PHP</div>
-          </div>
-      </div>
-      <div class="box_out2">
-              <div class="box_2">
-              <h2 class="h2_2">jQuery</h2>
-              <h5 class="h5_2">A JS library for developing web pages</h5>
-              <div class="button_2">Learn jQuery</div>
-          </div>
-      </div>
-      <div class="box_out3">
-          <div class="box_3">
-              <h2 class="h2_3">Java</h2>
-              <h5 class="h5_3">A programming language</h5>
-              <div class="button_3">Learn Java</div>
-          </div>
-      </div> 
-      <div class="box_out4">
-          <div class="box_4">
-              <h2 class="h2_4">C++</h2>
-              <h5 class="h5_4">A programming language</h5>
-              <div class="button_4">Learn C++</div>
-          </div>
-      </div>
-      <div class="box_out5">
-          <div class="box_5">
-              <h2 class="h2_5">W3.CSS</h2>
-              <h5 class="h5_5">A CSS framework for faster and better responsive web pages</h5>
-              <div class="button_5">Learn W3.CSS</div>
-          </div>
-      </div>
-      <div class="box_out6">
-          <div class="box_6">
-              <h2 class="h2_6">Bootstrap</h2>
-              <h5 class="h5_6">A CSS framework for designing better web pages</h5>
-              <div class="button_6">Learn Bootstrap</div>
-          </div>
-      </div> 
-      </div>
-    <!-- block 9 -->
-    <div class="block9-black">
-      <div class="block9-container">
-        <a
-          href="https://www.w3schools.com/c/index.php"
-          class="button-item item-size3 item-color-pink"
-          >C</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size3 item-color-yellow"
-          >C#</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-grey"
-          >R</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-green"
-          >Kotlin</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-blue"
-          >Node.js</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-pink"
-          >React</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-yellow"
-          >JSON</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-grey"
-          >AngularJS</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-green"
-          >MySQL</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-blue"
-          >XML</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-pink"
-          >Sass</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-yellow"
-          >Icons</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-grey"
-          >RWD</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-green"
-          >Graphics</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-blue"
-          >SVG</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-pink"
-          >Canvas</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-yellow"
-          >Raspberry Pi</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-grey"
-          >Cyber Security</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-green"
-          >Colors</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-blue"
-          >Git</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-pink"
-          >Matplotlib</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-yellow"
-          >NumPy</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-grey"
-          >Pandas</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-green"
-          >SciPy</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-blue"
-          >ASP</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-pink"
-          >Accessibility</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-yellow"
-          >AppML</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-grey"
-          >Go</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-green"
-          >TypeScript</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-blue"
-          >Django</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-pink"
-          >MongoDB</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-yellow"
-          >Statistics</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-grey"
-          >Data Science</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size2 item-color-green"
-          >Typing Speed</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size1 item-color-blue"
-          >Excel</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size1 item-color-yellow"
-          >Google Sheets</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size1 item-color-pink"
-          >Machine Learning</a
-        >
-        <a
-          href="https://www.w3schools.com/cs/index.php"
-          class="button-item item-size1 item-color-grey"
-          >Artificial Intelligence</a
-        >
+  </div>
+  <!--block 8-->
+  <div class="conteiner">
+    <div class="box_out1">
+      <div class="box_1">
+        <h2 class="h2_1">PHP</h2>
+        <h5 class="h5_1">A web server programming language</h5>
+        <div class="button_1">Learn PHP</div>
       </div>
     </div>
-    <!--block10-->
-    <div class="w3schools_spaces">
-      <div class="content">
-        <h1>W3Schools Spaces</h1>
-        <h3>Build your own website with W3Schools Spaces.</h3>
-        <br>
-        <div class="button">Get Started for Free</div>
-        <br>
-        <div class="img">
-            <img src="https://www.w3schools.com/how-spaces-works3.png" alt="">
-        </div>
+    <div class="box_out2">
+      <div class="box_2">
+        <h2 class="h2_2">jQuery</h2>
+        <h5 class="h5_2">A JS library for developing web pages</h5>
+        <div class="button_2">Learn jQuery</div>
       </div>
     </div>
-  </body>
+    <div class="box_out3">
+      <div class="box_3">
+        <h2 class="h2_3">Java</h2>
+        <h5 class="h5_3">A programming language</h5>
+        <div class="button_3">Learn Java</div>
+      </div>
+    </div>
+    <div class="box_out4">
+      <div class="box_4">
+        <h2 class="h2_4">C++</h2>
+        <h5 class="h5_4">A programming language</h5>
+        <div class="button_4">Learn C++</div>
+      </div>
+    </div>
+    <div class="box_out5">
+      <div class="box_5">
+        <h2 class="h2_5">W3.CSS</h2>
+        <h5 class="h5_5">A CSS framework for faster and better responsive web pages</h5>
+        <div class="button_5">Learn W3.CSS</div>
+      </div>
+    </div>
+    <div class="box_out6">
+      <div class="box_6">
+        <h2 class="h2_6">Bootstrap</h2>
+        <h5 class="h5_6">A CSS framework for designing better web pages</h5>
+        <div class="button_6">Learn Bootstrap</div>
+      </div>
+    </div>
+  </div>
+  <!-- block 9 -->
+  <div class="block9-black">
+    <div class="block9-container">
+      <a href="https://www.w3schools.com/c/index.php" class="button-item item-size3 item-color-pink">C</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size3 item-color-yellow">C#</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-grey">R</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-green">Kotlin</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-blue">Node.js</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-pink">React</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-yellow">JSON</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-grey">AngularJS</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-green">MySQL</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-blue">XML</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-pink">Sass</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-yellow">Icons</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-grey">RWD</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-green">Graphics</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-blue">SVG</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-pink">Canvas</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-yellow">Raspberry Pi</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-grey">Cyber Security</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-green">Colors</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-blue">Git</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-pink">Matplotlib</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-yellow">NumPy</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-grey">Pandas</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-green">SciPy</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-blue">ASP</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-pink">Accessibility</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-yellow">AppML</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-grey">Go</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-green">TypeScript</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-blue">Django</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-pink">MongoDB</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-yellow">Statistics</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-grey">Data Science</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size2 item-color-green">Typing Speed</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size1 item-color-blue">Excel</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size1 item-color-yellow">Google Sheets</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size1 item-color-pink">Machine Learning</a>
+      <a href="https://www.w3schools.com/cs/index.php" class="button-item item-size1 item-color-grey">Artificial Intelligence</a>
+    </div>
+  </div>
+  <!--block10-->
+  <div class="w3schools_spaces">
+    <div class="content">
+      <h1>W3Schools Spaces</h1>
+      <h3>Build your own website with W3Schools Spaces.</h3>
+      <br>
+      <div class="button">Get Started for Free</div>
+      <br>
+      <div class="img">
+        <img src="https://www.w3schools.com/how-spaces-works3.png" alt="">
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>

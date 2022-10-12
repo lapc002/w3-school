@@ -19,6 +19,8 @@ body {
 .w3-center {
   background-color: #282a35;
   text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .w3-content,
@@ -30,6 +32,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 1400px;
 }
 
 .learntocodeh1 {
@@ -37,9 +40,12 @@ body {
   font-weight: 700;
   margin-top: 40px!;
 }
+
 .learntocodeh3 {
   color: #ffc0c7;
   margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
   font-size: 23px;
 }
 
@@ -110,17 +116,6 @@ h3 {
   font-weight: bold;
 }
 
-a {
-  background-color: transparent;
-  color: white;
-  font: 23px "Source Sans Pro", sans-serif;
-}
-
-a:hover,
-a:active {
-  color: #059862;
-}
-
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 fontawesome;
@@ -128,4 +123,19 @@ a:active {
   -webkit-font-smoothing: antialiased;
   transform: translate(0, 0);
   font-size: 20px;
+}
+
+.h4-title {
+  background-color: transparent;
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.h4-title:hover,
+.h4-title:active {
+  color: #059862;
 }

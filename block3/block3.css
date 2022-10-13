@@ -4,7 +4,7 @@ h1 {
   font-weight: 700;
   margin: 10px 6px -27px 0px;
   text-align: center;
-  background-color: #d9eee1 !important;
+  background-color: #d9eee1;
   color: black;
   display: block;
   line-height: 1.5;
@@ -12,7 +12,7 @@ h1 {
 
 .container {
   width: 1400px;
-  background-color: #d9eee1 !important;
+  background-color: #d9eee1;
   color: rgb(0, 0, 0);
   padding-top: 32px;
   padding-bottom: 32px;

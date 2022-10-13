@@ -66,13 +66,13 @@ h1 {
 }
 
 .black-button-a:hover {
-  background-color: #000 !important;
-  color: white !important;
+  background-color: #000;
+  color: white;
 }
 
 .pink-button-a:hover {
-  background-color: #ffb3bb !important;
-  color: black !important;
+  background-color: #ffb3bb;
+  color: black;
 }
 
 .block2-turquoise-a {
@@ -140,8 +140,8 @@ h3 {
 }
 
 .w3-code {
-  margin-top: 16px !important;
-  margin-bottom: 16px !important;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .w3-code {
@@ -164,8 +164,8 @@ h3 {
 }
 
 .tryit-button:hover {
-  background-color: #059862 !important;
-  color: white !important;
+  background-color: #059862;
+  color: white;
 }
 
 .sqlcolor {

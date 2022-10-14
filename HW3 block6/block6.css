@@ -64,7 +64,9 @@
   text-align: center;
 }
 
-.learn-python:hover, .learn-python:focus, .learn-python:active{
+.learn-python:hover, 
+.learn-python:focus, 
+.learn-python:active{
   opacity: 0.75;
 }
 
@@ -79,7 +81,9 @@
   text-align: center;
 }
 
-.python-reference:hover, .python-reference:focus, .python-reference:active{
+.python-reference:hover, 
+.python-reference:focus, 
+.python-reference:active{
   background-color: black;
   color: white;
 }
@@ -95,7 +99,9 @@
   text-align: center;
 }
 
-.python-certified:hover, .python-certified:focus, .python-certified:active{
+.python-certified:hover, 
+.python-certified:focus, 
+.python-certified:active{
   opacity: 0.75;
 }
 
@@ -133,7 +139,9 @@
   font-size: 18px;
 }
 
-.tryit:hover, .tryit:focus, .rtyit:active{
+.tryit:hover, 
+.tryit:focus, 
+.tryit:active{
   opacity: 0.75;
 }
 

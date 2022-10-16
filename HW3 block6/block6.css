@@ -10,8 +10,8 @@
 }
 
 .python-wrapper{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   width: 1400px;
   display: flex;
   justify-content: space-around;
@@ -29,7 +29,8 @@
 }
 
 .python-h2{
-  margin-top: -10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 80px;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
@@ -106,7 +107,7 @@
 }
 
 .py-ex{
-  border-radius: 4px;
+  border-radius: 5px;
   width: 49.9%;
   background-color: #38444d;
   color: #ddd;
@@ -116,6 +117,8 @@
 }
 
 .p-ex{
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 8px 12px;
 }
 

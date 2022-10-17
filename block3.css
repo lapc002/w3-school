@@ -10,7 +10,11 @@ h2.html-title {
   line-height: 1.5;
 }
 
-.container {
+.html-text {
+  font-size: 19px;
+}
+
+.block3-container {
   width: 1400px;
   background-color: #d9eee1;
   color: rgb(0, 0, 0);
@@ -43,7 +47,7 @@ h2.html-title {
   justify-content: center;
   flex-direction: column;
 }
-.button_1 {
+.block3-button_1 {
   background-color: #04aa6d;
   color: #ffffff;
   font-size: 17px;
@@ -58,7 +62,7 @@ h2.html-title {
   border-radius: 25px;
   text-decoration: none;
 }
-.button_2 {
+.block3-button_2 {
   background-color: #fff4a3;
   color: black;
   font-size: 17px;
@@ -74,7 +78,7 @@ h2.html-title {
   line-height: 1.5;
   text-decoration: none;
 }
-.button_3 {
+.block3-button_3 {
   background-color: #282a35;
   color: white;
   font-size: 17px;

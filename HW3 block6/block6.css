@@ -1,12 +1,11 @@
 /* Python style */
 
 .python-wrapper__section{
-  width: 100%;
   background-color: #F3ECEA;
   color: black;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  padding-bottom: 45px;
 }
 
 .python-wrapper{
@@ -21,36 +20,33 @@
 }
 
 .python-content{
-  width: 49.9%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 25px;
 }
 
 .python-h2{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
   font-size: 80px;
-  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   color: black;
   background-color: #F3ECEA;
 }
 
 .random-text{
-  display: block;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .python-items{
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 12px;
   display: flex;
   justify-content: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 8px 12px;
+  padding: 8px 50px;
 }
 
 .learn-python{
@@ -59,7 +55,6 @@
   color: white;
   font-size: 18px;
   display: block;
-  width: 200px;
   border-radius: 25px;
   text-decoration: none;
   text-align: center;
@@ -76,10 +71,10 @@
   color: white;
   font-size: 18px;
   display: block;
-  width: 200px;
   border-radius: 25px;
   text-decoration: none;
   text-align: center;
+  padding: 8px 35px;
 }
 
 .python-reference:hover, 
@@ -94,7 +89,6 @@
   color: black;
   font-size: 18px;
   display: block;
-  width: 200px;
   border-radius: 25px;
   text-decoration: none;
   text-align: center;
@@ -107,38 +101,46 @@
 }
 
 .py-ex{
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-right: 50px;
   border-radius: 5px;
-  width: 49.9%;
+  width: 50%;
   background-color: #38444d;
   color: #ddd;
-  box-sizing: inherit;
-  padding: 15px 15px;
-  margin-right: 35px;
 }
 
 .p-ex{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding: 8px 12px;
 }
 
 .p-block{
-
+  margin-left: 15px;
+  margin-right: 15px;
   background-color: rgb(21,32,43);
-  height: 210px;
+  height: 220px;
+  width: auto;
   border-left: 4px solid rgb(40,44,52);
+}
+
+.button-tryit{
+  background-color: #38444d;
+  border: none;
+  border-radius: 5px;
 }
 
 .tryit{
   display: block;
   margin: 15px 15px;
-  width: 200px;
   color: white;
   background-color: #059862;
   border-radius: 25px;
   text-decoration: none;
   text-align: center;
-  padding: 8px 12px;
+  padding: 8px 45px;
   font-size: 18px;
 }
 

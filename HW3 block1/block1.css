@@ -21,7 +21,9 @@
   padding: 24px 24px 24px 24px;
 }
 
-.w3:hover, .w3:focus, .w3:active{
+.w3:hover, 
+.w3:focus, 
+.w3:active{
   background-color: #059862;
   color: white;
 }
@@ -42,7 +44,9 @@
   float: left;
 }
 
-.logo:hover, .logo:focus, .logo:active{
+.logo:hover, 
+.logo:focus, 
+.logo:active{
   opacity: .75;
 }
 
@@ -95,7 +99,9 @@
   }
 }
 
-.pro:hover, .pro:focus, .pro:active{
+.pro:hover, 
+.pro:focus, 
+.pro:active{
   opacity: .7;
 }
 
@@ -114,7 +120,9 @@
   }
 }
 
-.certified:hover, .certified:focus, .certified:active{
+.certified:hover, 
+.certified:focus, 
+.certified:active{
   opacity: .75;
 }
 
@@ -133,7 +141,9 @@
   }
 }
 
-.free-website:hover, .free-website:focus, .free-website:active{
+.free-website:hover, 
+.free-website:focus, 
+.free-website:active{
   opacity: 0.75;
 }
 
@@ -148,7 +158,9 @@
   font-size: 18px;
 }
 
-.log-in:hover, .log-in:focus, .log-in:active{
+.log-in:hover, 
+.log-in:focus, 
+.log-in:active{
   opacity: .75;
 }
 

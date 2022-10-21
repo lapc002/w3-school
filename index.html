@@ -24,43 +24,41 @@
 
  <body style="margin: 0;">
     <!--block 1 start-->
-    <section class="header-wraooer">
-      <div class="header-w3">
-        <div class="tkk">
-          <a href="https://www.w3schools.com/" class="logo">
-            <img src="./img/logo.png.png" width="50px" height="50px" alt="logo">
-          </a>
-          <a href="#1" class="tutorials w3">Tutorials</a>
-          <a href="#1" class="referens w3">References</a>
-          <a href="#1" class="exercises w3">Exercises</a>
-          <a href="https://www.w3schools.com/videos/index.php" class="videos w3">Videos</a>
-        </div>
-        <div class="tkk">
-          <a href="#1" class="dark-mode w3h"></a>
-          <a href="#1" class="translate w3h"></a>
-          <a href="#1" class="search w3h"></a>
-          <a href="https://www.w3schools.com/pro/index.php" class="pro w3h">Pro</a>
-          <a href="https://campus.w3schools.com/collections/course-catalog" class="certified w3h">Get Certified</a>
-          <a href="https://www.w3schools.com/spaces/" class="free-website w3h">Free Website</a>
-          <a href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com" class="log-in w3h">Log in</a>
-        </div>
-      </div>
-    </section>
+<section class="header-wraooer">
+  <div class="header-w3">
+    <div class="header-block1">
+      <a href="https://www.w3schools.com/" class="logo">
+        <img src="./img/logo-pic-white.png" width="50px" height="50px" alt="logo">
+      </a>
+      <a href="#1" class="tutorials w3">Tutorials</a>
+      <a href="#1" class="referens w3">References</a>
+      <a href="#1" class="exercises w3">Exercises</a>
+      <a href="https://www.w3schools.com/videos/index.php" class="videos w3">Videos</a>
+    </div>
+    <div class="header-block2">
+      <a href="#1" class="help-items">
+        <img src="./img/help-items.png" alt="dark-mode, search">
+      </a>
+      <a href="https://www.w3schools.com/pro/index.php" class="pro w3h">Pro</a>
+      <a href="https://campus.w3schools.com/collections/course-catalog" class="certified w3h">Get Certified</a>
+      <a href="https://www.w3schools.com/spaces/" class="free-website w3h">Free Website</a>
+      <a href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com" class="log-in w3h">Log in</a>
+    </div>
+  </div>
+</section>
     <!--block 1 end-->
   <!--block-2-->
   <div class="ws-black w3-center">
     <div class="learntocodecontent">
-      <span class="learntocodeh1">Learn to Code</span>
+      <h1 class="learntocodeh1">Learn to Code</h1>
       <div class="learntocodeh3">
-        <span >With the world's largest web developer site.</span>
+        <span>With the world's largest web developer site.</span>
       </div>
       <br />
       <form class="example" action="/action_page.php" style="margin: auto; max-width: 500px">
         <input type="text" placeholder="Search our tutorials, e.g. HTML" id="search2" autocomplete="off" onkeydown="key_pressed_in_search(event)" oninput="find_search_results(this)" onfocus="find_search_results(this)" />
         <button type="button" id="learntocode_searchbtn" onclick="click_learntocode_search_btn()">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" id="IconChangeColor">
-            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" id="mainIconPathAttribute" stroke-width="0.5" stroke="#ffffff" fill="#ffffff"></path>
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512" id="IconChangeColor"><title>ionicons-v5-f</title><path d="M464,428,339.92,303.9a160.48,160.48,0,0,0,30.72-94.58C370.64,120.37,298.27,48,209.32,48S48,120.37,48,209.32s72.37,161.32,161.32,161.32a160.48,160.48,0,0,0,94.58-30.72L428,464ZM209.32,319.69A110.38,110.38,0,1,1,319.69,209.32,110.5,110.5,0,0,1,209.32,319.69Z" id="mainIconPathAttribute" fill="#ffffff"></path></svg>
         </button>
         <div id="listofsearchresults">/></div>
       </form>
@@ -171,8 +169,8 @@
 <section class="python-wrapper__section">
   <div class="python-wrapper" style="max-width: 1400px;">
     <div class="python-content" style="padding: 3%;">
-      <h2 class="python-h2" style="font-weight: 700;">Python</h1>
-      <p class="random-text" style="font-size: 19px">A popular programming language</p>
+      <h2 class="python-h2" style="font-weight: 700;">Python</h2>
+      <div class="random-text" style="font-size: 19px">A popular programming language</div>
       <a href="https://www.w3schools.com/python/default.asp" class="learn-python python_b6 python-items">Learn Python</a>
       <a href="https://www.w3schools.com/python/python_reference.asp" class="python-reference python-items">Python Reference</a>
       <a href="https://campus.w3schools.com/collections/certifications/products/python-certificate" target="_blank" class="python-certified python-items">Get Certified</a>
@@ -181,7 +179,9 @@
       <h2 class="p-ex">Python Example:</h2>
       <div class="p-block">if 5 > 2:
         print("Five is greater than two!")</div>
-      <a href="https://www.w3schools.com/python/trypython.asp?filename=demo_indentation" class="tryit"> Try it Yourself</a>
+      <button class="button-tryit">
+        <a href="https://www.w3schools.com/python/trypython.asp?filename=demo_indentation" class="tryit"> Try it Yourself</a>
+    </button>
     </div>
   </div>
 </section>

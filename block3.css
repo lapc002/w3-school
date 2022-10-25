@@ -1,3 +1,4 @@
+
 .html-title {
   font-family:  "Source Sans Pro", sans-serif;
   font-size: 100px;
@@ -28,6 +29,7 @@
   flex-direction: row;
   width: 100%;
   padding: 32px 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .block3-contant {
